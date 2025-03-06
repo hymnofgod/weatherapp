@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather appp</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ </head>
+  <body>
+ <div class="container">  
+    <div class="box" id="box">       
+     <div class="search section">
+      <input type="text"  list="county" id="input" placeholder="enter the city">
+      <datalist id ="county"> 
+        <option value=""></option>
+     </datalist>
+     <button id="button"><i class="fa fa-search" aria-hidden="true"></i></button> 
+   </div>
+   
+   <div class="piccontainer"> 
+    <div class="picture" id="picture" > 
+      <img id="weather-icon" alt="icon"  class="hidden"> 
+    </div> 
+   </div>
+
+    <div id="information"   !class="hidden">
+        <p style="font-size: 1.5rem;color:rgb(141, 62, 78); " id="one"> temp:</p>
+        <P id="temp" > </P>
+        <p style="font-size: 1.5rem;color:rgb(138, 70, 70); " id="two">cloud: </p> 
+        <p id="desc"></p> 
+    </div>    
+  </div>
+ </div>
+
+<p id="message"> </p>
+<script src="script.js">hello</script>
+</body>
+</html>

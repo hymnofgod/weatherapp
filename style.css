@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+.container{
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(218, 218, 185);
+}
+
+
+.box{
+    background-image:linear-gradient( 180deg, rgb(130, 223, 223),rgb(218, 174, 181),rgb(233, 119, 233));
+    height: 45rem;
+    width: 35rem;
+    border-radius: 3rem;
+}
+
+input{
+    width:  13rem;
+    height: 2rem;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5rem ;
+    margin-top: 2rem ;
+    padding-left: 10px;
+}
+
+button{
+    margin-left:2rem;
+    width: 2rem;
+    height: 2rem;
+    border:none;
+    border-radius: 3rem;
+    background-color:white;
+}
+
+#information{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+#temp{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 3rem;
+    padding-top: 1rem;
+    color:white;
+}
+
+#desc{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 2rem;
+    padding-top: 1rem;
+    color:white;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+
+
+.piccontainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.picture{
+    display: flex;
+    justify-content: center;
+    width: 25rem;
+    height: 15rem;
+    /* background-color:orange; */
+
+}
+p{
+    margin-top:1rem;
+}
+
+.img{
+    visibility: hidden;
+}
